@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		951E634D1D57FB60004DB591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E634C1D57FB60004DB591 /* main.m */; };
 		951E63501D57FB60004DB591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E634F1D57FB60004DB591 /* AppDelegate.m */; };
-		951E63531D57FB60004DB591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E63521D57FB60004DB591 /* ViewController.m */; };
-		951E63561D57FB60004DB591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E63541D57FB60004DB591 /* Main.storyboard */; };
 		951E63581D57FB60004DB591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951E63571D57FB60004DB591 /* Assets.xcassets */; };
 		951E635B1D57FB60004DB591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E63591D57FB60004DB591 /* LaunchScreen.storyboard */; };
 		951E63661D57FB60004DB591 /* MultiUserAliExpressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E63651D57FB60004DB591 /* MultiUserAliExpressTests.m */; };
 		951E63711D57FB60004DB591 /* MultiUserAliExpressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E63701D57FB60004DB591 /* MultiUserAliExpressUITests.m */; };
 		951E63861D57FC01004DB591 /* HttpCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E63851D57FC01004DB591 /* HttpCookieManager.m */; };
+		959EFF7D1D60618C00644B5A /* AEWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF7B1D60618C00644B5A /* AEWebVC.m */; };
+		959EFF7E1D60618C00644B5A /* AEWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959EFF7C1D60618C00644B5A /* AEWebVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,6 @@
 		951E634C1D57FB60004DB591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		951E634E1D57FB60004DB591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		951E634F1D57FB60004DB591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		951E63511D57FB60004DB591 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		951E63521D57FB60004DB591 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		951E63551D57FB60004DB591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		951E63571D57FB60004DB591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		951E635A1D57FB60004DB591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		951E635C1D57FB60004DB591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +51,9 @@
 		951E63721D57FB60004DB591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		951E63841D57FC01004DB591 /* HttpCookieManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpCookieManager.h; sourceTree = "<group>"; };
 		951E63851D57FC01004DB591 /* HttpCookieManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpCookieManager.m; sourceTree = "<group>"; };
+		959EFF7A1D60618C00644B5A /* AEWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWebVC.h; sourceTree = "<group>"; };
+		959EFF7B1D60618C00644B5A /* AEWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEWebVC.m; sourceTree = "<group>"; };
+		959EFF7C1D60618C00644B5A /* AEWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEWebVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,6 @@
 				951E63831D57FBDA004DB591 /* Views */,
 				951E634E1D57FB60004DB591 /* AppDelegate.h */,
 				951E634F1D57FB60004DB591 /* AppDelegate.m */,
-				951E63511D57FB60004DB591 /* ViewController.h */,
-				951E63521D57FB60004DB591 /* ViewController.m */,
-				951E63541D57FB60004DB591 /* Main.storyboard */,
 				951E63571D57FB60004DB591 /* Assets.xcassets */,
 				951E63591D57FB60004DB591 /* LaunchScreen.storyboard */,
 				951E635C1D57FB60004DB591 /* Info.plist */,
@@ -182,6 +179,9 @@
 		951E63821D57FBDA004DB591 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				959EFF721D60614700644B5A /* NavVC */,
+				959EFF731D60614700644B5A /* TabBarVC */,
+				959EFF741D60614700644B5A /* WebVC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +191,30 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		959EFF721D60614700644B5A /* NavVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavVC;
+			sourceTree = "<group>";
+		};
+		959EFF731D60614700644B5A /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		959EFF741D60614700644B5A /* WebVC */ = {
+			isa = PBXGroup;
+			children = (
+				959EFF7A1D60618C00644B5A /* AEWebVC.h */,
+				959EFF7B1D60618C00644B5A /* AEWebVC.m */,
+				959EFF7C1D60618C00644B5A /* AEWebVC.xib */,
+			);
+			path = WebVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +284,7 @@
 				TargetAttributes = {
 					951E63471D57FB5F004DB591 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B5HKVZ3G87;
 					};
 					951E63601D57FB60004DB591 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -296,9 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				959EFF7E1D60618C00644B5A /* AEWebVC.xib in Resources */,
 				951E635B1D57FB60004DB591 /* LaunchScreen.storyboard in Resources */,
 				951E63581D57FB60004DB591 /* Assets.xcassets in Resources */,
-				951E63561D57FB60004DB591 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951E63531D57FB60004DB591 /* ViewController.m in Sources */,
 				951E63501D57FB60004DB591 /* AppDelegate.m in Sources */,
+				959EFF7D1D60618C00644B5A /* AEWebVC.m in Sources */,
 				951E634D1D57FB60004DB591 /* main.m in Sources */,
 				951E63861D57FC01004DB591 /* HttpCookieManager.m in Sources */,
 			);
@@ -362,14 +387,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		951E63541D57FB60004DB591 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				951E63551D57FB60004DB591 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		951E63591D57FB60004DB591 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -469,10 +486,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MultiUserAliExpress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnshi.aliexpress.MultiUserAliExpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -480,10 +501,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MultiUserAliExpress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnshi.aliexpress.MultiUserAliExpress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -552,6 +577,7 @@
 				951E63771D57FB60004DB591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951E63781D57FB60004DB591 /* Build configuration list for PBXNativeTarget "MultiUserAliExpressTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +586,7 @@
 				951E637A1D57FB60004DB591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		951E637B1D57FB60004DB591 /* Build configuration list for PBXNativeTarget "MultiUserAliExpressUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +595,7 @@
 				951E637D1D57FB60004DB591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
