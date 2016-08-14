@@ -1,5 +1,5 @@
 //
-//  AEWebVC.h
+//  AETabBarController.h
 //  MultiUserAliExpress
 //
 //  Created by SHIJIAN on 16/8/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AEWebVC : UIViewController
-
-@property (nonatomic, copy) NSString *urlString;
+@interface AETabBarController : UITabBarController
 
 @end

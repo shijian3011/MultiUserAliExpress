@@ -12,7 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
-
 @end
 
 @implementation AEWebVC
@@ -25,6 +24,10 @@
     [self createView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -34,9 +37,7 @@
 
 - (void)createView {
     self.webView.delegate = self;
-    
-    
-    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://login.aliexpress.com/?flag=1&return_url=http%3A%2F%2Fmyae.aliexpress.com%2Fseller%2Findex.htm"]]];
 }
 
 #pragma mark - UIWebViewDelegate
@@ -46,18 +47,5 @@
     return YES;
 }
 
-
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

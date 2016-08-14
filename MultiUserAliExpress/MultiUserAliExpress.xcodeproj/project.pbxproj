@@ -16,6 +16,12 @@
 		951E63861D57FC01004DB591 /* HttpCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E63851D57FC01004DB591 /* HttpCookieManager.m */; };
 		959EFF7D1D60618C00644B5A /* AEWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF7B1D60618C00644B5A /* AEWebVC.m */; };
 		959EFF7E1D60618C00644B5A /* AEWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959EFF7C1D60618C00644B5A /* AEWebVC.xib */; };
+		959EFF851D60A0C000644B5A /* AETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF831D60A0C000644B5A /* AETabBarController.m */; };
+		959EFF861D60A0C000644B5A /* AETabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959EFF841D60A0C000644B5A /* AETabBarController.xib */; };
+		959EFF8A1D60A13D00644B5A /* AENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF881D60A13D00644B5A /* AENavigationController.m */; };
+		959EFF8B1D60A13D00644B5A /* AENavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959EFF891D60A13D00644B5A /* AENavigationController.xib */; };
+		959EFF901D60A37200644B5A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF8F1D60A37200644B5A /* UIView+Frame.m */; };
+		959EFF961D60A4F300644B5A /* UIControl+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 959EFF951D60A4F300644B5A /* UIControl+block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,19 @@
 		959EFF7A1D60618C00644B5A /* AEWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWebVC.h; sourceTree = "<group>"; };
 		959EFF7B1D60618C00644B5A /* AEWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEWebVC.m; sourceTree = "<group>"; };
 		959EFF7C1D60618C00644B5A /* AEWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AEWebVC.xib; sourceTree = "<group>"; };
+		959EFF821D60A0C000644B5A /* AETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AETabBarController.h; sourceTree = "<group>"; };
+		959EFF831D60A0C000644B5A /* AETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AETabBarController.m; sourceTree = "<group>"; };
+		959EFF841D60A0C000644B5A /* AETabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AETabBarController.xib; sourceTree = "<group>"; };
+		959EFF871D60A13D00644B5A /* AENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AENavigationController.h; sourceTree = "<group>"; };
+		959EFF881D60A13D00644B5A /* AENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AENavigationController.m; sourceTree = "<group>"; };
+		959EFF891D60A13D00644B5A /* AENavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AENavigationController.xib; sourceTree = "<group>"; };
+		959EFF8D1D60A2EA00644B5A /* AEColorDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEColorDefine.h; sourceTree = "<group>"; };
+		959EFF8E1D60A37200644B5A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		959EFF8F1D60A37200644B5A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		959EFF921D60A45000644B5A /* AEUIDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEUIDefine.h; sourceTree = "<group>"; };
+		959EFF931D60A4B000644B5A /* AEBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEBlockDefine.h; sourceTree = "<group>"; };
+		959EFF941D60A4F300644B5A /* UIControl+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+block.h"; sourceTree = "<group>"; };
+		959EFF951D60A4F300644B5A /* UIControl+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +123,7 @@
 		951E634A1D57FB5F004DB591 /* MultiUserAliExpress */ = {
 			isa = PBXGroup;
 			children = (
+				959EFF8C1D60A2D000644B5A /* Defines */,
 				951E637E1D57FBDA004DB591 /* Categories */,
 				951E637F1D57FBDA004DB591 /* Manager */,
 				951E63801D57FBDA004DB591 /* ThirdLibraries */,
@@ -149,6 +169,10 @@
 		951E637E1D57FBDA004DB591 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				959EFF941D60A4F300644B5A /* UIControl+block.h */,
+				959EFF951D60A4F300644B5A /* UIControl+block.m */,
+				959EFF8E1D60A37200644B5A /* UIView+Frame.h */,
+				959EFF8F1D60A37200644B5A /* UIView+Frame.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -196,6 +220,9 @@
 		959EFF721D60614700644B5A /* NavVC */ = {
 			isa = PBXGroup;
 			children = (
+				959EFF871D60A13D00644B5A /* AENavigationController.h */,
+				959EFF881D60A13D00644B5A /* AENavigationController.m */,
+				959EFF891D60A13D00644B5A /* AENavigationController.xib */,
 			);
 			path = NavVC;
 			sourceTree = "<group>";
@@ -203,6 +230,9 @@
 		959EFF731D60614700644B5A /* TabBarVC */ = {
 			isa = PBXGroup;
 			children = (
+				959EFF821D60A0C000644B5A /* AETabBarController.h */,
+				959EFF831D60A0C000644B5A /* AETabBarController.m */,
+				959EFF841D60A0C000644B5A /* AETabBarController.xib */,
 			);
 			path = TabBarVC;
 			sourceTree = "<group>";
@@ -215,6 +245,16 @@
 				959EFF7C1D60618C00644B5A /* AEWebVC.xib */,
 			);
 			path = WebVC;
+			sourceTree = "<group>";
+		};
+		959EFF8C1D60A2D000644B5A /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				959EFF8D1D60A2EA00644B5A /* AEColorDefine.h */,
+				959EFF921D60A45000644B5A /* AEUIDefine.h */,
+				959EFF931D60A4B000644B5A /* AEBlockDefine.h */,
+			);
+			path = Defines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +362,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				959EFF7E1D60618C00644B5A /* AEWebVC.xib in Resources */,
+				959EFF8B1D60A13D00644B5A /* AENavigationController.xib in Resources */,
+				959EFF861D60A0C000644B5A /* AETabBarController.xib in Resources */,
 				951E635B1D57FB60004DB591 /* LaunchScreen.storyboard in Resources */,
 				951E63581D57FB60004DB591 /* Assets.xcassets in Resources */,
 			);
@@ -349,9 +391,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				951E63501D57FB60004DB591 /* AppDelegate.m in Sources */,
+				959EFF961D60A4F300644B5A /* UIControl+block.m in Sources */,
 				959EFF7D1D60618C00644B5A /* AEWebVC.m in Sources */,
 				951E634D1D57FB60004DB591 /* main.m in Sources */,
+				959EFF901D60A37200644B5A /* UIView+Frame.m in Sources */,
+				959EFF851D60A0C000644B5A /* AETabBarController.m in Sources */,
 				951E63861D57FC01004DB591 /* HttpCookieManager.m in Sources */,
+				959EFF8A1D60A13D00644B5A /* AENavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
